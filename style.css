@@ -1,0 +1,115 @@
+body, html{
+    height: 100%;
+}
+
+.navBrandCustom {
+    font-family: 'baskerville';
+    font-size: x-large;
+}
+
+.navLinkCustom a{
+    font-family: 'baskerville';
+    font-size: normal;
+}
+
+/* HOME */
+.homebg{
+    background-image: url("img/sho.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.homeCol {
+    margin-top: 300px;
+}
+
+.home > h1 {
+    text-align: left;
+    font-family: "bodoni MT";
+    font-size: 70px;
+    color: white;
+    margin: 0px;
+}
+
+.homeDesc {
+    text-align: left;
+    font-family: "Baskerville";
+    color: white;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+/* HEAD */
+.head {
+    padding-top: 200px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: "lucida bright";
+}
+
+/* ABOUT */
+.aboutCol {
+    padding-top: 30px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.aboutText p {
+    text-align: center;
+    font-family: "baskerville";
+    font-size: 20px;
+}
+
+.hlink a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.hlink a:hover {
+    opacity: 50%;
+}
+
+/* PROFILE */
+.cardIMG {
+    border-radius: 50%;
+    margin: auto;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.cardCustom {
+    border-radius: 2em;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.cardTitleCustom h5{
+    font-family: 'baskerville';
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.cardTextCustom p{
+    font-family: 'baskerville';
+}
+
+/* INTERESTS AND HOBBIES */
+.carouselText h5:first-child{
+    font-family: 'baskerville';
+    font-weight: light;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+/* CONTACT ME */
+.contactMeHead {
+    padding-top: 200px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: "lucida bright";
+    color: white;
+}
+
+.contactIcon img:hover {
+    opacity: 0.5;
+}
