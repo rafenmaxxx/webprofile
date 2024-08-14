@@ -14,7 +14,7 @@ body, html{
 
 /* HOME */
 .homebg{
-    background-image: url("img/sho.jpg");
+    background-image: url("img/bg1.jpg");
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -29,6 +29,7 @@ body, html{
     font-family: "bodoni MT";
     font-size: 70px;
     color: white;
+    background-color: black;
     margin: 0px;
 }
 
@@ -36,6 +37,7 @@ body, html{
     text-align: left;
     font-family: "Baskerville";
     color: white;
+    background-color: black;
     letter-spacing: 5px;
     margin-top: 10px;
 }
